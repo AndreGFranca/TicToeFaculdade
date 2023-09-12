@@ -1,0 +1,57 @@
+.jogo{
+    margin: auto;  
+}
+
+.blocojogo{
+    border: 3px solid #ff9a03;
+    width: 10rem;
+    height: 10rem;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.blocojogo:hover{
+    background-color: rgb(71, 221, 83);    
+    border-radius: 10px;
+}
+
+.sup{
+    border-top: none;
+}
+
+.esq{
+    border-left: none;
+}
+.dir{
+    border-right: none;
+}
+.inf{
+    border-bottom: none;
+}
+/* .jogo::after{    
+    content: "";
+    display: block;
+    width: auto;
+    background-color: aqua;
+    height: 10px;
+} */
+.botao{
+    width: 20rem;
+    height: 6rem;
+    background-color: transparent;
+    margin: 10px 0px;
+    border: #ff9a03 3px solid;
+    font-size: 4rem;
+    border-radius: 20px ;
+}
+.botao:hover{
+    background-color: rgb(71, 221, 83);  
+}
+
+.botao:active{
+    background-color: #6d4303;
+}
+.placar{
+    font-size: 1.6rem;
+}

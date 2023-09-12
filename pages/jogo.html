@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/jogo.css" />
+    <title>Jogo</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbarHeader">
+        <a href="../index.html" class="link">        
+          <img src="../img/kisspng-tic-tac-toe-oxo-tic-tac-toe-classic-the-tic-tac-to-chess-board-5ade1f78921495.4757469215245064885984.png" class="imagemheader" alt="">
+          Home</a>
+        <a href="./jogo.html" class="link">Jogo</a>
+        <a href="./sobrenos.html" class="link">Sobre nós</a>
+        <a href="./contato.html" class="link">Contato</a>
+      </nav>
+    </header>
+    <main class="container">
+      <article class="container">
+        <table class="jogo" id="tabuleiro">  
+            <thead>
+                <tr class="placar">
+                    <th>
+                        Jogador O: 0
+                    </th>
+                    <th>
+                        Placar
+                    </th>
+                    <th>
+                        Jogador X: 0         
+                    </th>
+                </tr>                
+            </thead>    
+            <tbody>
+                <tr>
+                    <td class="blocojogo esq sup"></td>
+                    <td class="blocojogo meio sup"></td>
+                    <td class="blocojogo dir sup"></td>
+                </tr>
+                <tr>
+                    <td class="blocojogo esq mid"></td>
+                    <td class="blocojogo meio mid"></td>
+                    <td class="blocojogo dir mid"></td>
+                </tr>
+                <tr>
+                    <td class="blocojogo esq inf"></td>
+                    <td class="blocojogo meio inf"></td>
+                    <td class="blocojogo dir inf"></td>
+                </tr>
+            </tbody>
+        </table>
+      </article>
+      <article>
+        <button type="button" class="botao" onclick="resetar()">Limpar</button>
+      </article>
+    </main>
+    <footer class="rodape"><p class="rodapetexto">Todos direitos reservados a mim &copy; =)</p></footer>
+  </body>
+  <script src="../js/jogo.js"></script>
+</html>

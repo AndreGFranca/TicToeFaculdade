@@ -1,0 +1,39 @@
+.formulario{
+    display: flex;    
+    flex-direction: column; 
+    width: 60rem;
+    border: 1px solid #ff9a03;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 1rem; 
+}
+
+.formbox{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.3rem;   
+    margin-top: 1rem; 
+
+}
+
+.inputformulario{
+    /* margin-left: 50px; */
+    height: 2rem;
+    width: 20rem;
+    font-size: 1.2rem;
+    border: none;
+    border-bottom: #ff9a03 2px double;
+    border-radius: 6px;
+    margin-left: auto;
+    outline: none;
+    text-align: center;
+    /* background-color: bisque; */
+}
+
+.labelinput{
+    margin-right: 2rem;
+}
+.centro{
+margin-left: auto;    
+margin-right: auto;
+}
